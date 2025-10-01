@@ -1,0 +1,17 @@
+{
+  "name": "com.biswajit.localization.googlesheets",
+  "version": "1.0.0",
+  "displayName": "Localization Google Sheets",
+  "description": "Unity Localization integration of Google Sheets provider using a Google Service Account (replaces OAuth/API Key sheet access).",
+  "unity": "2022.3",
+  "keywords": ["localization","google-sheets","service-account","localization-integration"],
+  "category": "Localization",
+  "dependencies": {
+    "com.unity.localization": "1.5.8"
+  },
+  "author": {
+    "name": "Biswajit Sahoo",
+    "email": "bsahoo1995@gmail.com",
+    "url": "https://github.com/IamBiswajitSahoo"
+  }
+}

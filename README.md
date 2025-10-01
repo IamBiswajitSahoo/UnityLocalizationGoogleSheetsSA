@@ -1,0 +1,1 @@
+# Localization Google Sheets SA (Service Account)

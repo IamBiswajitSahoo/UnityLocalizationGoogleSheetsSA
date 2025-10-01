@@ -1,0 +1,14 @@
+{
+    "name": "Biswajit.Unity.Localization.Authentication",
+    "rootNamespace": "Biswajit.Unity.Localization.Authentication",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
