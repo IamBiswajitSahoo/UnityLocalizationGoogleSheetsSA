@@ -14,7 +14,7 @@ namespace Biswajit.Unity.Localization.GoogleSheets.Authentication.Editor
     /// NOTE: If you need OAuth or API Key authentication, please use the Unity's <see cref="UnityEditor.Localization.Plugins.Google.SheetsServiceProvider"/>.
     /// </p>
     /// </summary>
-    [CreateAssetMenu(fileName = "Service Account Google Sheets Service", menuName = "Localization/ServiceAccountGoogleSheetsService")]
+    [CreateAssetMenu(fileName = "ServiceAccountGoogleSheetsService", menuName = "Localization/ServiceAccountGoogleSheetsService")]
     [HelpURL("https://developers.google.com/sheets/api/guides/authorizing#AboutAuthorization")]
     public class ServiceAccountSheetsServiceProvider : SheetsServiceProvider
     {

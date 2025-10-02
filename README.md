@@ -1,12 +1,12 @@
 # Localization Google Sheets SA (Service Account)
 
 ![UNityLocalization_X_GoogleSheets.png](Metadata/UNityLocalization_X_GoogleSheets.png)
+---
 
-## Google Cloud & Service Account Setup
+# Instructions
+## How to Setup a Google Cloud project with a service account
 
 Follow these steps to create a Google Cloud project & a service account.
-
----
 
 ### Step 1: Create a Google Cloud Project
 
@@ -14,7 +14,6 @@ Follow these steps to create a Google Cloud project & a service account.
 - Create a new project or select an existing one.
 - This project will group your enabled APIs, service accounts, and billing for this integration. (You do not need billing unless you plan to use the google sheets API services beyond the free limit. )
 
----
 
 ### Step 2: Enable the Google Sheets API
 
@@ -23,7 +22,6 @@ Follow these steps to create a Google Cloud project & a service account.
 
 > ⚠️ This step is required before creating credentials or keys.
 
----
 
 ### Step 3: Create a Service Account
 
@@ -31,7 +29,6 @@ Follow these steps to create a Google Cloud project & a service account.
 - Give it a descriptive name, e.g., `localization-sheets-sa`.
 - Assign minimal roles if needed; broad project roles are not required for basic spreadsheet access.
 
----
 
 ### Step 4: Create and Download a JSON Key
 
@@ -41,7 +38,6 @@ Follow these steps to create a Google Cloud project & a service account.
 
 > ⚠️ Treat this file like a secret. Do not commit it to Git. Rotate or delete keys that are exposed.
 
----
 
 ### Step 5: Share Your Google Sheet
 
@@ -52,9 +48,8 @@ Follow these steps to create a Google Cloud project & a service account.
 
 > 🔑 Note: Sharing the spreadsheet is required; IAM permissions alone do not grant access.
 
----
 
-## Step 6: Store the JSON Key Securely
+### Step 6: Store the JSON Key Securely
 
 - **CI / Server:** Store the JSON in your CI secret store (e.g., GitHub/GitLab/Bitbucket secrets, Google Secret Manager).
 - **Local development:** Place the JSON in a secure folder and reference it in your project settings.
