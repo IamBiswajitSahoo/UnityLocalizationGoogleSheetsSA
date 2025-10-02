@@ -1,5 +1,7 @@
 # Localization Google Sheets SA (Service Account)
 
+![UNityLocalization_X_GoogleSheets.png](Metadata/UNityLocalization_X_GoogleSheets.png)
+
 ## Google Cloud & Service Account Setup
 
 Follow these steps to create a Google Cloud project & a service account.
