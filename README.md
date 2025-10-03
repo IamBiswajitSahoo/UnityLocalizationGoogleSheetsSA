@@ -54,4 +54,4 @@ Issues and pull requests are welcome.
 
 # License
 
-This project is licensed under the [MIT License](Assets/CustomPackage/UnityLocalizationGoogleSheetsSA/LICENSE.txt).
+This project is licensed under the [MIT License](LICENSE.txt).
